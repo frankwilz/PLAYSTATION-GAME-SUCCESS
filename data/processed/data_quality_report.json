@@ -1,0 +1,41 @@
+{
+  "raw_row_count": 12073,
+  "clean_row_count": 12022,
+  "removed_rows": 51,
+  "column_count": 12,
+  "missing_values": {
+    "game_name": 0,
+    "highest_price": 8565,
+    "release_date": 79,
+    "genre": 3509,
+    "publisher": 285,
+    "platform": 7,
+    "metacritic_score": 11069,
+    "metacritic_rating_count": 11065,
+    "metacritic_user_score": 11064,
+    "metacritic_user_rating_count": 11064,
+    "playstation_score": 4864,
+    "playstation_rating_count": 4858
+  },
+  "dtypes": {
+    "game_name": "string",
+    "highest_price": "Float64",
+    "release_date": "datetime64[ns]",
+    "genre": "string",
+    "publisher": "string",
+    "platform": "string",
+    "metacritic_score": "Int64",
+    "metacritic_rating_count": "Int64",
+    "metacritic_user_score": "float64",
+    "metacritic_user_rating_count": "float64",
+    "playstation_score": "Float64",
+    "playstation_rating_count": "Float64"
+  },
+  "notes": [
+    "Removed trailing empty columns from the source CSV.",
+    "Standardized missing markers such as '--' and blank strings.",
+    "Converted prices and review columns to numeric types.",
+    "Parsed release_date into datetime values.",
+    "Removed duplicates by game_name, platform, and release_date."
+  ]
+}

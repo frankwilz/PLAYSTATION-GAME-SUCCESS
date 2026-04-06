@@ -1,0 +1,62 @@
+[
+  {
+    "name": "game_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "highest_price",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "release_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "genre",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "publisher",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "platform",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "metacritic_score",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "metacritic_rating_count",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "metacritic_user_score",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "metacritic_user_rating_count",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "playstation_score",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "playstation_rating_count",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  }
+]
