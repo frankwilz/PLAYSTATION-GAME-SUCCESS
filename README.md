@@ -9,6 +9,8 @@ This repository implements an end-to-end analytics pipeline around a public Play
 - reporting artifacts and notebooks
 
 # Notice GenAI was used in project
+- Fix errors in minor errors in code
+- Help build prediction model
 
 ## Dataset
 
